@@ -1,0 +1,103 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    background: linear-gradient(45deg, #b155557e, #0000ff46);
+}
+
+.container {
+    background: white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 15px lightslategrey;
+    position: absolute;
+}
+
+.col-md-6 {
+    margin: 12px;
+    padding: 5px;
+}
+
+.Loan-form {
+    display: flex;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    padding: 3px 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 4px 0;
+}
+
+.input-group-addon {
+    position: relative;
+    padding: 5px;
+}
+
+.monthly {
+    font-size: 15px;
+    display: flex;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.Restol {
+    width: 50%;
+}
+
+.heading {
+    justify-content: center;
+}
+
+#form-group {
+    position: relative;
+    display: flex;
+    padding: 3px 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 4px 0;
+}
+
+#btn {
+    background: rgb(26, 34, 34);
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.pt-4 {
+    padding-top: 9px;
+}
+
+.alert-box {
+    width: 90%;
+    background: rgba(250, 40, 103, 0.185);
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    display: none;
+}
+
+.alert {
+    color: rgb(29, 27, 27);
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 13px;
+}
+
+#Loading,
+#results {
+    display: none;
+}
