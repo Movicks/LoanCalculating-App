@@ -1,4 +1,4 @@
-# LoanCalculating-App
+# LoanApp.org
 
 ## Overview
 
